@@ -1,0 +1,35 @@
+{
+	"patients": {
+		"type": "array"
+	},
+	"patient": {
+		"type": "object"
+	},
+	"id": {
+		"type": "string",
+		"destinationName": "patientId"
+	},
+	"gender": {
+		"type": "string",
+		"destinationName": "sex",
+		"valueTransforms": {
+			"m": "male",
+			"f": "female"
+		}
+	},
+	"name": {
+		"type": "string"
+	},
+	"state": {
+		"type": "string",
+		"valueTransforms": {
+			"Michigan": "MI",
+			"Ohio": "OH"
+		}
+	},
+	"dob": {
+		"format": "MM/d/yyyy",
+		"type": "yearsSince",
+		"destinationName": "age"
+	}
+}

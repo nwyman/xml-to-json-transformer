@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+  <provider>
+  	<tin>1234</tin>
+    <gender>m</gender>
+    <providerName>Ascension</providerName>
+    <state>Michigan</state>
+    <practitionerName>Dr. Dan</practitionerName>
+		<acceptingPatientsOn>31/01/2019</acceptingPatientsOn>
+		<dob>15/07/1952</dob>
+		<services>
+			<service>Pediatric</service>
+			<service>General Practitioner</service>
+		</services>
+  </provider>
+	<provider>
+  	<tin>0997</tin>
+    <gender>m</gender>
+    <providerName>Michigan Bariatric Surgery Collaborative</providerName>
+    <state>Michigan</state>
+    <practitionerName>Amir Ghaferi, M.D., M.S.</practitionerName>
+		<acceptingPatientsOn>25/05/2019</acceptingPatientsOn>
+		<dob>08/08/1982</dob>
+		<services>
+			<service>Advanced Laparoscopy</service>
+			<service>Abdominal Wall Reconstruction</service>
+		</services>
+  </provider>
+</providers>

@@ -1,0 +1,50 @@
+{
+	"providers": {
+		"type": "array"
+	},
+	"provider": {
+		"type": "object"
+	},
+	"tin": {
+		"type": "string",
+		"destinationName": "taxId"
+	},
+	"gender": {
+		"type": "string",
+		"destinationName": "sex",
+		"valueTransforms": {
+			"m": "male",
+			"f": "female"
+		}
+	},
+	"providerName": {
+		"type": "string",
+		"destinationName": "officeName"
+	},
+	"state": {
+		"type": "string",
+		"valueTransforms": {
+			"Michigan": "MI",
+			"Ohio": "OH"
+		}
+	},
+	"practitionerName": {
+		"type": "string",
+		"destinationName": "doctorName"
+	},
+	"acceptingPatientsOn": {
+		"type": "string",
+		"destinationName": "canAcceptPatientsOn"
+	},
+	"services": {
+		"type": "array"
+	},
+	"service": {
+		"type": "string"
+	},
+	"dob": {
+		"format": "d/MM/yyyy",
+		"type": "yearsSince",
+		"destinationName": "age"
+	}
+}
